@@ -28,6 +28,7 @@ def get_logger():
 def set_logger():
     """set the global logger for plog"""
     global creads_logger
+    creads_logger = logger
 
 
 def configure_logger(level):
